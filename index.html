@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Weather App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://rawgit.com/marvelapp/devices.css/master/assets/devices.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="screen">
+			<form method="get" class="form">
+				<fieldset>
+					<legend>Weather Apllication</legend>
+					<ul class="list-reset">
+						<li class="form-field">
+							<label for="city-search">City Name</label>
+							<input type="text" id="city-search">
+						</li>
+						<li class="form-field">
+							<label for="latitude">Latitude</label>
+							<input type="text" id="latitude">
+						</li>
+						<li class="form-field">
+							<label for="longitude">Longitude</label>
+							<input type="text" id="longitude">
+						</li>
+						<li class="form-field">
+							<input type="checkbox" id="celsius">
+							<label for="celsius">Report Celsius</label>
+						</li>
+					</ul>
+				</fieldset>
+				<button>Get Weather</button>
+			</form>
+		</div>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
+S
